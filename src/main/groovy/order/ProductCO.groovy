@@ -11,12 +11,4 @@ class ProductCO implements Validateable {
         name nullable: false, blank: false, minSize: 3
         price nullable: false, min: 1L
     }
-
-    String getName() {
-        return name
-    }
-
-    Long getPrice() {
-        return price
-    }
 }

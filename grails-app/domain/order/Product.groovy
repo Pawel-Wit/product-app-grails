@@ -14,8 +14,7 @@ class Product implements Validateable {
     }
 
     Product(String name, Long price) {
-        this.name = name;
-        this.price = price;
+        this.name = name
+        this.price = price
     }
-
 }
