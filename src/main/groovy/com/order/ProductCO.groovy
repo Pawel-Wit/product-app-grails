@@ -1,4 +1,4 @@
-package order
+package com.order
 
 import grails.validation.Validateable
 

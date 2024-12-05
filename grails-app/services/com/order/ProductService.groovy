@@ -1,8 +1,6 @@
 package com.order
 
 import grails.gorm.transactions.Transactional
-import order.Product
-import order.ProductCO
 
 class ProductService {
 

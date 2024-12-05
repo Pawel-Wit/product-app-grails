@@ -1,6 +1,6 @@
-package order
+package com.order
 
-import com.order.ProductService
+
 import grails.converters.JSON
 
 class ProductController {

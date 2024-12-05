@@ -1,4 +1,4 @@
-package order
+package com.order
 
 class UrlMappings {
     static mappings = {
