@@ -32,7 +32,7 @@ class ProductService {
         }
     }
 
-    private static Product mapToDomain(ProductCO productCO) {
+    private Product mapToDomain(ProductCO productCO) {
         return new Product(productCO.getName(), productCO.getPrice())
     }
 }
